@@ -1,0 +1,30 @@
+{
+  "name": "polyfill",
+  "version": "1.0.0",
+  "description": "自建polyfill服务器",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node ./app.js",
+    "test": "NODE_ENV=test node ./app.js",
+    "dev": "NODE_ENV=development node ./app.js",
+    "lint": "eslint --ext .js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuyxp/polyfill.git"
+  },
+  "author": "wuyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuyxp/polyfill/issues"
+  },
+  "homepage": "https://github.com/wuyxp/polyfill#readme",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "polyfill-library": "^3.34.0"
+  }
+}
